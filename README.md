@@ -13,7 +13,7 @@ Add the script as a startup application .
 
 - usercheck.sh
 
-sudo bash userchck.sh "username"
+sudo bash usercheck.sh "username"
 
 Script will check the given username, if not exist, user will created with .ssh file.
 Then SSH port and SSH KEY will be asked. UFW will be installed and configured with the given SSH port.
